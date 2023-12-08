@@ -59,9 +59,11 @@ a {
 .herobutton {
     background-color: #3882F6;
     color: white;
-    padding: 8px 16px;
+    padding: 10px 18px;
     border-radius: 20px;
     border: none;
+    font-weight: bold;
+    font-size: 1.2em;
   }
 
 .hero-image {
@@ -73,3 +75,105 @@ a {
 
 /*style for information section */
 
+.information-title {
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    margin: 20px;
+}
+
+.flexcards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.frame {
+    width: 200px;
+    height: 200px;
+    border: 5px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:#3882F6;
+    margin-bottom: 10px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    width: 210px;
+}
+
+/* style for quotation section */
+
+.quotecontainer {
+    background: #E5E7EB;
+    padding: 60px 30px 60px 280px;
+}
+
+.customerquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.customername {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* style for CTA section */
+
+.ctacontainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 75px 50px 75px 75px;
+}
+
+.ctacard {
+    display: flex;
+    width: 700px;
+    height: auto;
+    background-color:#3882F6;
+    border-radius: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#E5E7EB;
+    flex: 1 1 auto;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.hollowbutton {
+    border-color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 17px;
+    color: white;
+    border-width: 3px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 1.3em;
+}
+
+/* css for footer */
+
+.footer {
+    display: flex;
+    height: 30px;
+    width: auto;
+    background-color:#1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+}
